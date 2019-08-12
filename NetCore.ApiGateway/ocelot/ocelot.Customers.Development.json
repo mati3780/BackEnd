@@ -1,0 +1,36 @@
+{
+	"ReRoutes": [
+		{
+			"UpstreamPathTemplate": "/api/v1/customers",
+			"UpstreamHttpMethod": [ "GET", "POST" ],
+			"DownstreamPathTemplate": "/api/v1/customers",
+			"DownstreamScheme": "https",
+			"DownstreamHostAndPorts": [
+				{
+					"Host": "localhost",
+					"Port": 44301
+				}
+			],
+			"AuthenticationOptions": {
+				"AllowedScopes": [ "customersApi" ],
+				"AuthenticationProviderKey": "idsrv"
+			}
+		},
+		{
+			"UpstreamPathTemplate": "/api/v1/customers/{id}",
+			"UpstreamHttpMethod": [ "GET", "PUT", "DELETE" ],
+			"DownstreamPathTemplate": "/api/v1/customers/{id}",
+			"DownstreamScheme": "https",
+			"DownstreamHostAndPorts": [
+				{
+					"Host": "localhost",
+					"Port": 44301
+				}
+			],
+			"AuthenticationOptions": {
+				"AllowedScopes": [ "customersApi" ],
+				"AuthenticationProviderKey": "idsrv"
+			}
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"version": "1.0",
+	"defaultProvider": "cdnjs",
+	"libraries": [
+		{
+			"provider": "unpkg",
+			"library": "@fortawesome/fontawesome-free@5.5.0",
+			"destination": "wwwroot/lib/@fortawesome/fontawesome-free/"
+		},
+		{
+			"provider": "unpkg",
+			"library": "bootstrap@4.1.3",
+			"destination": "wwwroot/lib/bootstrap/"
+		}
+	]
+}

@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.SSO", "Neuridium.SSO\NetCore.SSO.csproj", "{401E8063-864C-433F-B3D5-CEE0D3D33C05}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8648120A-0DBE-43E8-BE4E-65C30354CB94}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.Common", "Neuridium.Common\NetCore.Common.csproj", "{971A164C-0F9D-41E7-B610-2FB1633D4628}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.ApiGateway", "Neuridium.ApiGateway\NetCore.ApiGateway.csproj", "{3854A655-05D3-48EE-8AFF-91B6CACAD048}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.Customers.API", "Neuridium.Customers.API\NetCore.Customers.API.csproj", "{57562E7A-28F8-49D1-ABF8-3390A91D57D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{401E8063-864C-433F-B3D5-CEE0D3D33C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{401E8063-864C-433F-B3D5-CEE0D3D33C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{401E8063-864C-433F-B3D5-CEE0D3D33C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{401E8063-864C-433F-B3D5-CEE0D3D33C05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8648120A-0DBE-43E8-BE4E-65C30354CB94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8648120A-0DBE-43E8-BE4E-65C30354CB94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8648120A-0DBE-43E8-BE4E-65C30354CB94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{971A164C-0F9D-41E7-B610-2FB1633D4628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{971A164C-0F9D-41E7-B610-2FB1633D4628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{971A164C-0F9D-41E7-B610-2FB1633D4628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{971A164C-0F9D-41E7-B610-2FB1633D4628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3854A655-05D3-48EE-8AFF-91B6CACAD048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3854A655-05D3-48EE-8AFF-91B6CACAD048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3854A655-05D3-48EE-8AFF-91B6CACAD048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3854A655-05D3-48EE-8AFF-91B6CACAD048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57562E7A-28F8-49D1-ABF8-3390A91D57D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57562E7A-28F8-49D1-ABF8-3390A91D57D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57562E7A-28F8-49D1-ABF8-3390A91D57D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57562E7A-28F8-49D1-ABF8-3390A91D57D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0844A8E7-CBE0-4921-94DA-A16232830CAF}
+	EndGlobalSection
+EndGlobal

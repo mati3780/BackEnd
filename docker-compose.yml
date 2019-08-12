@@ -1,0 +1,26 @@
+version: '3.4'
+
+services:
+  NetCore.api:
+    image: ${DOCKER_REGISTRY}NetCoreapi
+    build:
+      context: .
+      dockerfile: NetCore.API\Dockerfile
+
+  NetCore.customers.api:
+    image: ${DOCKER_REGISTRY}NetCoreacustomersapi
+    build:
+      context: .
+      dockerfile: NetCore.Customers.API\Dockerfile
+
+  NetCore.sso:
+    image: ${DOCKER_REGISTRY}NetCoresso
+    build:
+      context: .
+      dockerfile: NetCore.SSO\Dockerfile
+
+  NetCore.apigateway:
+    image: ${DOCKER_REGISTRY}NetCoreapigateway
+    build:
+      context: .
+      dockerfile: NetCore.ApiGateway\Dockerfile
